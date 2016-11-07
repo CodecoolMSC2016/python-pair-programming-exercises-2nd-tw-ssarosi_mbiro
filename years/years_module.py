@@ -1,8 +1,8 @@
-import datetime
+from datetime import date
 
 
 def years(age):
-    return
+    return date.today().year - age + 100
 
 
 def main():
